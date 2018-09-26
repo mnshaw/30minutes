@@ -27,4 +27,14 @@ function checkDarkMode() {
     }
 }
 
+function checkPastelMode() {
+    var checked = document.getElementById("pastelmode").checked;
+    if (checked) {
+    	$('body').addClass('pastelmode');
+    } else {
+    	$('body').removeClass('pastelmode')
+    }
+}
+
+
 showTime();
