@@ -19,11 +19,11 @@ body {
 }
 
 #time {
-	font-size: 300%;
+	font-size: 700%;
 }
 
 #ad {
-	width: 60%;
+	/*width: 60%;*/
 	height: 300px;
 	border: solid;
 	margin-top: 30px;
@@ -113,9 +113,8 @@ input:checked + .slider:before {
 	font-size: 22px;
 }
 
-#pastel {
-	top: 10px;
-	margin-top: 10px;
+#social, .modes{
+	margin-left: 5px;
 }
 
 .a2a_kit {
